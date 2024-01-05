@@ -1,0 +1,340 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.main-container{
+    width: 100%;
+    height: 800px;
+    background-image: url(./image/banglow.jpg) ;
+ 
+    background-size: cover;
+}
+.logo{
+    width: 20% ;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+.logo img{
+    width: 100px;
+}
+.navbar{
+    width: 60%;
+    margin-bottom: 30px;
+
+
+   
+  }
+  .navbar span{
+    color: rgb(245, 239, 239);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -90px ;
+    margin-left: 60%;
+
+  }
+  .btn-box{
+    width: 20%;
+    margin-left: 140%;
+    margin-top: -20px;
+    
+    
+  }
+  .btn-box button{
+    width: 50px;
+    height: 25px;
+    background-color: red;
+    border: none;
+    font-size: 12px;
+    margin-right: 10px;
+    color: white;
+    text-align: center;
+    
+     
+  }
+  #btn{
+    background-color: rgba(255, 255, 255, 0.205);
+    border: rgba(255, 255, 255, 0.473);
+ 
+  }
+  .p{
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5%;
+    color:  rgba(247, 247, 247, 0.671);
+
+  }
+  .para{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+
+  }
+  .para p{
+   color:  white;
+   font-size: 30px;
+   margin-inline: 20px;
+
+  }
+  .input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+
+
+  }
+  .input input{
+    width: 180px;
+    height: 35px;
+    padding-left: 30px;
+    margin-left: 10px;
+  }
+  .bbtn{
+    width: 100%;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 50px;
+
+   
+  }
+  .bbtn button{
+    width: 170px;
+    height: 45px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    border: none;
+
+  }
+  .h1{
+    width: 100%;
+    margin-top: 10px;
+  }
+  .h1 p{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+  }
+  .h2{
+    width: 100%;
+    padding-inline: 20px;
+
+  }
+  .h2 p{
+    font-size: 20px;
+    color: rgb(207, 203, 203);
+    text-align: center;
+  }
+  .viwes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+
+
+  }
+  .viwes p{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+  }
+  .h3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+
+  }
+  .h3 p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  @media(max-width:1000px){
+    .main-container{
+      width: 100%;
+      height: auto;
+    background-position: center;
+   
+      background-size: cover;
+  }
+  .logo{
+      width: 20% ;
+      padding-left: 30px;
+      margin-bottom: 20px;
+  }
+  .logo img{
+      width: 80px;
+  }
+  .navbar{
+      width: 60%;
+      margin-bottom: 30px;
+      
+  
+  
+     
+    }
+    .navbar span{
+      /* color: rgb(245, 239, 239);
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: -90px ;
+      margin-left: 60%; */
+      display: none;
+  
+    }
+    .btn-box{
+      width: 40%;
+      margin-left: 120%;
+      margin-top: -80px;
+      display: flex;
+      
+      
+    }
+    .btn-box button{
+      width: 50px;
+      height: 25px;
+      background-color: red;
+      border: none;
+      font-size: 12px;
+      margin-right: 10px;
+      color: white;
+      text-align: center;
+      
+       
+    }
+    #btn{
+      background-color: rgba(255, 255, 255, 0.205);
+      border: rgba(255, 255, 255, 0.473);
+   
+    }
+    .p{
+      width: 100%;
+      font-size: 20px;
+      text-align: center;
+      margin-top: 9%;
+      color:  rgba(247, 247, 247, 0.671);
+  
+    }
+    .para{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 50px;
+      
+  
+    }
+    .para p{
+     color:  white;
+     font-size: 15px;
+     margin-inline: 15px;
+  
+    }
+    .input{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 15px;
+  
+  
+    }
+    .input input{
+      width: 80px;
+      height: 30px;
+      padding-left: 18px;
+      margin-left: 10px;
+    }
+    .bbtn{
+      width: 100%;
+      display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 50px;
+  
+     
+    }
+    .bbtn button{
+      width: 140px;
+      height: 45px;
+      background-color: red;
+      text-align: center;
+      color: white;
+      border: none;
+  
+    }
+    .h1{
+      width: 100%;
+      margin-top: 10px;
+    }
+    .h1 p{
+      font-size: 30px;
+      color: white;
+      text-align: center;
+    }
+    .h2{
+      width: 100%;
+      padding-inline: 20px;
+      margin-top: 10px;
+  
+    }
+    .h2 p{
+      font-size: 10px;
+      color: rgb(207, 203, 203);
+      text-align: center;
+    }
+    .viwes{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 70px;
+  
+  
+    }
+    .viwes p{
+      font-size: 30px;
+      text-align: center;
+      color: white;
+    }
+    .h3{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 10px;
+  
+    }
+    .h3 p{
+      font-size: 12px;
+      text-align: center;
+      color: white;
+    }
+  
+
+  }
+
+
+
+  
+  
+ 
+
+
+   
+ 
+
